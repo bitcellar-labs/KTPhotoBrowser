@@ -22,7 +22,7 @@
 }
 
 @property (nonatomic, retain) id <KTPhotoBrowserDataSource> dataSource;
-
+@property (nonatomic, readonly) KTThumbsView *thumbsView;
 /**
  * Re-displays the thumbnail images.
  */

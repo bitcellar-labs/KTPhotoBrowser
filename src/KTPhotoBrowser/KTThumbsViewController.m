@@ -108,6 +108,11 @@
    [self didLoadThumbs];
 }
 
+- (KTThumbsView *)thumbsView
+{
+  return scrollView_;
+}
+
 - (void)setDataSource:(id <KTPhotoBrowserDataSource>)newDataSource {
    dataSource_ = newDataSource;
    [self reloadThumbs];
